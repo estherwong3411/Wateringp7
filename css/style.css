@@ -1,0 +1,114 @@
+body {
+  max-height: 960px; 
+  max-width: 400px;
+}
+.categories {
+  background: url("https://upload.cc/i/K8am6l.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position:30% 25%;
+  margin: 0 auto;
+  min-height: 630px; /* set this so it shows up nicely */
+  max-width: 400px;
+}
+
+h4.text1 {
+    font-size: 40px; 
+    line-height: 1.5;
+    padding: 20px 85px;
+    max-width: 400px;
+    margin-top:50px;
+    color: rgb(255,255,255)
+}
+p.test {
+    font-size: 15px; 
+    line-height: 0.2;
+    padding: 20px 60px;
+    max-width: 400px;
+    margin-top:80%;
+    color: rgb(255,255,255)
+}
+p.test2 {
+    font-size: 12px; 
+    line-height: 0.5;
+    padding: 0px 140px;
+    max-width: 400px;
+    margin-top:-360px;
+    color: rgb(255,255,255)
+}  
+.textblock-lt { 
+  font-size: 12px;
+  background: rgba(255,255,255,0.5);
+  width: 600px;
+  max-height: 20px;
+  padding:25px 30px;
+  margin-top:-300px;
+  margin-left: -5px;
+  color: rgb(255,255,255);
+  text-align: center;
+  max-width: 400px;
+    
+}
+.clock {
+  border: 4px solid rgb(128,128,128);
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  max-width: 400px;
+  margin: 0px auto;
+  margin-top: 10%
+}
+
+.clock::before {
+  content: " ";
+  background-color: rgb(128,128,128);
+  display: block;
+  width: 3px;
+  height: 40px;
+  margin: 50%;
+  -webkit-animation: tick 36s linear infinite;
+  -moz-animation: tick 36s linear infinite;
+  animation: tick 36s linear infinite;
+  -webkit-transform-origin: center top;
+  -moz-transform-origin: center top;
+  transform-origin: center top;
+  max-width: 400px;
+}
+
+.clock::after {
+  content: " ";
+  background-color: rgb(128,128,128);
+  display: block;
+  width: 3px;
+  height: 25px;
+  margin: -90% 0 0 50%;
+  -webkit-animation: tick 864s linear infinite;
+  -moz-animation: tick 864s linear infinite;
+  animation: tick 864s linear infinite;
+  -webkit-transform-origin: center top;
+  -moz-transform-origin: center top;
+  transform-origin: center top;
+  max-width: 400px;
+}
+
+@-moz-keyframes tick {
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+    max-width: 400px;
+  }
+}
+
+@-webkit-keyframes tick {
+  100% {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+    max-width: 400px;
+  }
+}
